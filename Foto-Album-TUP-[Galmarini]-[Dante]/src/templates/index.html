@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="title-button">
+    <h1>Álbum de fotos</h1>
+    <button class="add-button" hx-get="{{ url_for('photo_bp.new_photo_form') }}" hx-target="#form">Añadir foto</button>
+    <!--<button class="reload-button" onclick="location.reload()">Refrescar pagina para ver los resultados</button>-->
+</div>
+<div id="form"></div>
+<div id="photo-list">
+    {%for photo in photos%}
+        {% include "photo_item.html" %}
+    {% endfor %}
+</div>
+
+{% endblock %}

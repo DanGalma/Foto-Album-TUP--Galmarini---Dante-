@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: Lato, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #e8e8e8;
+}
+
+button{
+    transition-duration: 0.3s;
+}
+.title-button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo-frame {
+    width: 80%;
+    background-color: rgb(228, 160, 160);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    max-width: 24rem;
+    max-height: max-content;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+}
+
+.photo-frame:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}   
+.photo-frame img{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.container h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.edit-button{
+    border: 2px solid #6384ee;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.edit-button:hover{
+    background-color: #4e77e7;
+    color: #ffffff;
+}
+.delete-button{
+    border: 2px solid crimson;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.delete-button:hover{
+    background-color: rgb(209, 62, 92);
+    color: #ffffff;
+}
+.submit-button{
+    border: 2px solid #025c9c;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.submit-button:hover{
+    background-color: #1183d4;
+    color: #ffffff;
+}
+
+.edit-button:hover, .delete-button:hover, .submit-button:hover, .add-button:hover, .reload-button:hover{
+    cursor: pointer;
+}   
+.reload-button{
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+.reload-button:hover{
+    background-color: grey;
+    color: #ffffff;
+}
+.form-title{
+    font-size: 30px;
+    background-color: #11d4d4;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.form-content{
+    padding: 10px 20px;
+    background-color: #e8e8e8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #11d4d4;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.form-line{
+    width: 97%;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.add-button{
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #11d493;
+}
+
+.add-button:hover{
+    background-color: #11d493;
+    color: #ffffff;
+}
+.form{
+    display: block;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
